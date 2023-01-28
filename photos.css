@@ -1,0 +1,17 @@
+img {
+  width: 30%;
+  margin: calc(10% / 6);
+}
+
+nav {
+  font-family: Raleway, sans-serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  border-bottom: 2px solid #f1f1f1;
+  width: 30%;
+  margin-left: calc(10% / 6);
+  padding: 1.2em 0;
+}
+/* 30 + 30 + 30
+each element is 30% of the parent width which is 90% taken up meaning we have 10% left */
+/* how many places that needs to be distributed, count each side of the images which is 6 sides. 10/6 =1.66666% but there are now easier options for spacing which is flex box. you can use the calc() instead of adding a long decimal number. */
